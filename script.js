@@ -203,6 +203,7 @@ function crearTablero(){
 btnPremio.addEventListener("click",()=>{
 
     mostrarPantalla("final");
+    
 
     const cartaFinal = `Si llegaste hasta aquí...
 Primero que nada, espero que te hubiera gustado.
