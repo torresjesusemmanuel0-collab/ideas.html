@@ -205,50 +205,7 @@ btnPremio.addEventListener("click",()=>{
     mostrarPantalla("final");
     
 
-    const cartaFinal = `Si llegaste hasta aquí...
-Primero que nada, espero que te hubiera gustado.
-Gracias por aceptar este pequeño juego, por dedicarle un momento de tu tiempo y por llegar hasta el final.
-Puede que para alguien más esto solo sea una página con un memorama, unas cuantas animaciones y una carta escondida.
-Pero para mí significa mucho más.
-La verdad es que quería hacer algo diferente para ti.
-Podía haber escrito un mensaje, comprar algún detalle o elegir algo sencillo, pero sentía que eso no expresaba realmente lo que quería transmitir.
-Entonces pensé...
-¿Y si en lugar de regalar algo, te regalaba un poquito de mi tiempo.
-Así nació esta pequeña idea.
-siendo sinceros, nunca antes había hecho una página como esta.
-Hubo momentos en los que una sola llave hacía que todo dejara de funcionar. Las cartas aparecían donde no debían, el juego se rompía, las animaciones desaparecían y más de una vez pensé: "¿En qué momento se me ocurrió hacer esto?". 😅
-Pero, curiosamente, nunca pensé en dejarlo.
-Porque cada error corregido significaba estar un paso más cerca de terminar algo que había empezado con una sola intención...
-Hacerte sonreír aun wue sea por un momento.
-Y por alguna razón, esa idea siempre fue suficiente para seguir intentándolo una vez más.
-Quizá nunca notes todas las horas que hubo detrás de esta página.
-Las veces que algo no funcionó.
-Las pruebas.
-Los cambios.
-Las desveladas.
-O los momentos en los que tuve que volver a empezar porque algo se había roto.
-Y, ¿sabes?
-Está bien.
-Porque todo ese tiempo ya había cumplido su propósito desde el momento en que decidí invertirlo en alguien que considero especial.
-Cada pétalo que cae.
-Cada carta del memorama.
-Cada pequeño detalle.
-Y cada línea de código que forma esta página existe por la misma razón.
-Porque me importa, aun que me diga que le miento jajaja.
-Y porque, aunque sea de una manera sencilla, quería hacer algo que pudiera sacarte una sonrisa y recordarte lo importante que eres para mí.
-Si mientras jugabas sonreíste aunque fuera por unos segundos...
-Entonces todo el esfuerzo valió completamente la pena.
-Por cierto... 🌷
-Si descubriste que algunas flores eran diferentes durante el memorama, entonces es muy observadora. Ese era un pequeño secreto para comprobar qué tan observadora es.
-Y sí...
-También era una pequeña excusa para hacerte sonreír una vez más.
-Gracias por haber leido una parte de la biblia jajaja.
-No sé qué pasará mañana, o si la vere pronto.
-Pero sí sé que, mientras lo construía, hubo una persona en la que pensé desde el principio hasta el final.
-Y esa persona fuiste tú.
-Con mucho cariño.
-    
-`;
+    const cartaFinal = `Si quieres que te canteme volveré canariopara cantarte siempre,para cantarte a diario.Si pides que me calleserá incierta la espera,pero he de complacertecuando de amor me muera.Si me pides la luna,mira, te la regalo.Dicen que soy iluso,¿y qué tiene de malo?Es ilusión la vida,una ilusión muy fuerte,una ilusión bien sana,es querer complacerte.Aquí tienes mi canto,solo dos cosas pido:dame un rincón en tu almapara construir mi nido.joan sebastian.`;
 
  escribirMensaje(cartaFinal);
 
