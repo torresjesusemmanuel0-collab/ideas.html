@@ -32,7 +32,6 @@ let lluviaEspecial = false;
 // ---------- PÉTALOS ----------
 
 const contenedor = document.getElementById("petalos");
-
 function crearPetalo(){
 
     const petalo = document.createElement("div");
@@ -205,7 +204,7 @@ btnPremio.addEventListener("click",()=>{
     mostrarPantalla("final");
     
 
-    const cartaFinal = `Si quieres que te canteme volveré canariopara cantarte siempre,para cantarte a diario.Si pides que me calleserá incierta la espera,pero he de complacertecuando de amor me muera.Si me pides la luna,mira, te la regalo.Dicen que soy iluso,¿y qué tiene de malo?Es ilusión la vida,una ilusión muy fuerte,una ilusión bien sana,es querer complacerte.Aquí tienes mi canto,solo dos cosas pido:dame un rincón en tu almapara construir mi nido.joan sebastian.`;
+    const cartaFinal = `Si quieres que te cante, me volveré canario, para cantarte siempre,para cantarte a diario.Si pides que me calle será incierta la espera,pero he de complacerte cuando de amor me muera.Si me pides la luna,mira, te la regalo.Dicen que soy iluso,¿y qué tiene de malo?Es ilusión la vida,una ilusión muy fuerte,una ilusión bien sana,es querer complacerte.Aquí tienes mi canto,solo dos cosas pido:dame un rincón en tu alma para construir mi nido.joan sebastian`;
 
  escribirMensaje(cartaFinal);
 
