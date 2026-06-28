@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Una pequeña sorpresa 🌸</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Pétalos -->
+    <div id="petalos"></div>
+
+    <!-- Aplicación -->
+    <div id="app">
+
+        <!-- ===================== -->
+        <!-- INICIO -->
+        <!-- ===================== -->
+
+        <section id="inicio" class="pantalla">
+
+            <div class="tarjeta">
+
+                <div id="sobre">
+
+                    <div id="tapa"></div>
+
+                    <div id="cuerpo"></div>
+
+                    <div id="textoSobre">
+                        Para ti 🌸
+                    </div>
+
+                </div>
+
+                <button id="btnInicio">
+                    Abrir carta
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- ===================== -->
+        <!-- MENSAJE -->
+        <!-- ===================== -->
+
+        <section id="mensaje" class="pantalla oculto">
+
+            <div class="tarjeta">
+
+                <h1>🌸</h1>
+
+                <p id="textoMensaje">
+
+                    Quería hacer algo diferente...
+
+                </p>
+
+                <button id="btnMensaje">
+
+                    Continuar
+
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- ===================== -->
+        <!-- MEMORAMA -->
+        <!-- ===================== -->
+
+        <section id="memorama" class="pantalla oculto">
+
+            <div class="tarjeta grande">
+
+                <h2>Memorama 🌸</h2>
+
+                <p>
+                    Encuentra las 6 parejas.
+                </p>
+
+                <p id="contador">
+
+                    Parejas: 0 / 6
+
+                </p>
+
+                <div id="tablero"></div>
+
+            </div>
+
+        </section>
+
+        <!-- ===================== -->
+        <!-- VICTORIA -->
+        <!-- ===================== -->
+
+        <section id="victoria" class="pantalla oculto">
+
+            <div class="tarjeta">
+
+                <h1>🎉</h1>
+
+                <p>
+
+                    ¡Lo lograste!
+
+                </p>
+
+                <button id="btnPremio">
+
+                    Abrir carta secreta 🌸
+
+                <button id="btnReiniciar">
+                Volver a jugar
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- ===================== -->
+        <!-- FINAL -->
+        <!-- ===================== -->
+
+        <section id="final" class="pantalla oculto">
+
+            <div class="tarjeta">
+
+                <h1>💌</h1>
+
+                <p id="mensajeFinal">
+
+                </p>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
